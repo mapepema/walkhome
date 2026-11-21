@@ -1,0 +1,36 @@
+# Walkhome systemd unit.
+#   sudo cp deploy/walkhome.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now walkhome
+[Unit]
+Description=Walkhome treadmill quest
+After=network-online.target bluetooth.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/workspace/walkhome
+Environment=WALKHOME_BLE=auto
+# Household timezone: defines "today", the week (Mon 00:00) and the 19:00 streak reminder.
+Environment=WALKHOME_TZ=Europe/Paris
+# Sign-up: open | invite | closed. With invite, set the code (keep it out of git):
+#   systemctl edit walkhome  ->  [Service] Environment=WALKHOME_INVITE_CODE=...
+Environment=WALKHOME_REGISTRATION=open
+# Walkers can only drive the simulator if they are admin when this is 0.
+Environment=WALKHOME_DEV=0
+# Web Push contact (VAPID keys live in data/vapid.json -- back it up with the DB).
+Environment=WALKHOME_VAPID_SUBJECT=mailto:you@example.org
+# Optional: pin the treadmill by its BLE address (find it with tools/probe_ftms.py).
+#Environment=WALKHOME_DEVICE_ADDRESS=AA:BB:CC:DD:EE:FF
+ExecStart=/home/pi/workspace/walkhome/.venv/bin/python -m app
+Restart=always
+RestartSec=3
+# keep journald from eating the SD card
+StandardOutput=journal
+StandardError=journal
+LogRateLimitIntervalSec=30
+LogRateLimitBurst=100
+
+[Install]
+WantedBy=multi-user.target
