@@ -1,0 +1,2753 @@
+{
+ "theme": "camino",
+ "sets": [
+  {
+   "id": "em",
+   "theme": "camino",
+   "name": "Embers",
+   "card_count": 60,
+   "accent": "#d9531e",
+   "cover": "/cards/embers-peaks/em/pack.webp"
+  },
+  {
+   "id": "pk",
+   "theme": "camino",
+   "name": "Peaks",
+   "card_count": 60,
+   "accent": "#3f8fb8",
+   "cover": "/cards/embers-peaks/pk/pack.webp"
+  }
+ ],
+ "cards": [
+  {
+   "id": "camino:em:emberling",
+   "theme": "camino",
+   "set": "em",
+   "number": 1,
+   "name": "Emberling",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/emberling.webp",
+   "thumb": "/cards/embers-peaks/em/emberling.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Born of a spark, it never learned how to be cold.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:em:ashphoenix",
+   "theme": "camino",
+   "set": "em",
+   "number": 2,
+   "name": "Ash Phoenix",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "ultra",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/em/ashphoenix.webp",
+   "thumb": "/cards/embers-peaks/em/ashphoenix.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It does not die: it waits until there is enough ash.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 6,
+    "ardor": 6
+   }
+  },
+  {
+   "id": "camino:em:emberfox",
+   "theme": "camino",
+   "set": "em",
+   "number": 3,
+   "name": "Ember Fox",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/emberfox.webp",
+   "thumb": "/cards/embers-peaks/em/emberfox.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its tail singes the ferns and rekindles dead hearths.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:bakehousedrakeling",
+   "theme": "camino",
+   "set": "em",
+   "number": 4,
+   "name": "Bakehouse Drakeling",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/bakehousedrakeling.webp",
+   "thumb": "/cards/embers-peaks/em/bakehousedrakeling.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It sleeps on warm bread and snores cinders.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:em:slatesalamander",
+   "theme": "camino",
+   "set": "em",
+   "number": 5,
+   "name": "Slate Salamander",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/slatesalamander.webp",
+   "thumb": "/cards/embers-peaks/em/slatesalamander.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Wherever it passes, the stone keeps its warmth a moment longer.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:forgeowl",
+   "theme": "camino",
+   "set": "em",
+   "number": 6,
+   "name": "Forge Owl",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/forgeowl.webp",
+   "thumb": "/cards/embers-peaks/em/forgeowl.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It counts the hammer blows and is never wrong.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:lavastag",
+   "theme": "camino",
+   "set": "em",
+   "number": 7,
+   "name": "Lava Stag",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/lavastag.webp",
+   "thumb": "/cards/embers-peaks/em/lavastag.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its antlers steam at the first snow.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:em:coalraven",
+   "theme": "camino",
+   "set": "em",
+   "number": 8,
+   "name": "Coal Raven",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/coalraven.webp",
+   "thumb": "/cards/embers-peaks/em/coalraven.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It brings the smiths the news of the wind.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 5
+   }
+  },
+  {
+   "id": "camino:em:basaltwarden",
+   "theme": "camino",
+   "set": "em",
+   "number": 9,
+   "name": "Basalt Warden",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/basaltwarden.webp",
+   "thumb": "/cards/embers-peaks/em/basaltwarden.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Still for a thousand winters, it holds the warmth of the first.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:em:sootwolf",
+   "theme": "camino",
+   "set": "em",
+   "number": 10,
+   "name": "Soot Wolf",
+   "subtitle": "Ember Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/sootwolf.webp",
+   "thumb": "/cards/embers-peaks/em/sootwolf.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "You only see it by the glow it steals from campfires.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 1
+   }
+  },
+  {
+   "id": "camino:em:motherforge",
+   "theme": "camino",
+   "set": "em",
+   "number": 11,
+   "name": "Mother Forge",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "holo",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/em/motherforge.webp",
+   "thumb": "/cards/embers-peaks/em/motherforge.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "This is where the world learned to be warm.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:thesilentcrater",
+   "theme": "camino",
+   "set": "em",
+   "number": 12,
+   "name": "The Silent Crater",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/thesilentcrater.webp",
+   "thumb": "/cards/embers-peaks/em/thesilentcrater.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Something beats down there, far beneath the rock.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:valleyofcinders",
+   "theme": "camino",
+   "set": "em",
+   "number": 13,
+   "name": "Valley of Cinders",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/valleyofcinders.webp",
+   "thumb": "/cards/embers-peaks/em/valleyofcinders.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A grey river runs through it, lukewarm, toward a sea it will never see.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:slagbridge",
+   "theme": "camino",
+   "set": "em",
+   "number": 14,
+   "name": "Slag Bridge",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/slagbridge.webp",
+   "thumb": "/cards/embers-peaks/em/slagbridge.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It stands out of habit, and out of the respect it is shown.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:firewatchtower",
+   "theme": "camino",
+   "set": "em",
+   "number": 15,
+   "name": "Firewatch Tower",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/firewatchtower.webp",
+   "thumb": "/cards/embers-peaks/em/firewatchtower.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its lantern has not dimmed in three generations.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:coalgallery",
+   "theme": "camino",
+   "set": "em",
+   "number": 16,
+   "name": "Coal Gallery",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/coalgallery.webp",
+   "thumb": "/cards/embers-peaks/em/coalgallery.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Every step wakes a small red constellation.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:scaldingspring",
+   "theme": "camino",
+   "set": "em",
+   "number": 17,
+   "name": "Scalding Spring",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/scaldingspring.webp",
+   "thumb": "/cards/embers-peaks/em/scaldingspring.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Travellers boil their tea and their grudges here.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:sparkplateau",
+   "theme": "camino",
+   "set": "em",
+   "number": 18,
+   "name": "Spark Plateau",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/sparkplateau.webp",
+   "thumb": "/cards/embers-peaks/em/sparkplateau.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The wind carries more light than dust up here.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:forgottenfoundry",
+   "theme": "camino",
+   "set": "em",
+   "number": 19,
+   "name": "Forgotten Foundry",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/forgottenfoundry.webp",
+   "thumb": "/cards/embers-peaks/em/forgottenfoundry.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The chimneys still smoke, and nobody knows why.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:sulphurpass",
+   "theme": "camino",
+   "set": "em",
+   "number": 20,
+   "name": "Sulphur Pass",
+   "subtitle": "Land of Fire",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/sulphurpass.webp",
+   "thumb": "/cards/embers-peaks/em/sulphurpass.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Cross it quickly, holding your breath and your questions.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:dawnhammer",
+   "theme": "camino",
+   "set": "em",
+   "number": 21,
+   "name": "Dawn Hammer",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "ultra",
+   "foil": "rainbow",
+   "image": "/cards/embers-peaks/em/dawnhammer.webp",
+   "thumb": "/cards/embers-peaks/em/dawnhammer.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Every blow it strikes lifts a little more daylight.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:emberlantern",
+   "theme": "camino",
+   "set": "em",
+   "number": 22,
+   "name": "Ember Lantern",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/emberlantern.webp",
+   "thumb": "/cards/embers-peaks/em/emberlantern.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its flame consumes nothing, except fear.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:starfallenanvil",
+   "theme": "camino",
+   "set": "em",
+   "number": 23,
+   "name": "Starfallen Anvil",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/starfallenanvil.webp",
+   "thumb": "/cards/embers-peaks/em/starfallenanvil.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It fell from the sky, and it sings when touched.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:quickashblade",
+   "theme": "camino",
+   "set": "em",
+   "number": 24,
+   "name": "Quickash Blade",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/quickashblade.webp",
+   "thumb": "/cards/embers-peaks/em/quickashblade.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Forged in one night, honed by a thousand mornings.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:coalcrown",
+   "theme": "camino",
+   "set": "em",
+   "number": 25,
+   "name": "Coal Crown",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/coalcrown.webp",
+   "thumb": "/cards/embers-peaks/em/coalcrown.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Light as a memory, warm as a promise.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:craterkey",
+   "theme": "camino",
+   "set": "em",
+   "number": 26,
+   "name": "Crater Key",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/craterkey.webp",
+   "thumb": "/cards/embers-peaks/em/craterkey.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It opens nothing: it reminds the door that it exists.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:vialofsparks",
+   "theme": "camino",
+   "set": "em",
+   "number": 27,
+   "name": "Vial of Sparks",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/vialofsparks.webp",
+   "thumb": "/cards/embers-peaks/em/vialofsparks.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Do not shake it on a festival night.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:smithsshield",
+   "theme": "camino",
+   "set": "em",
+   "number": 28,
+   "name": "Smiths' Shield",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/smithsshield.webp",
+   "thumb": "/cards/embers-peaks/em/smithsshield.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It bears the print of every hand that ever beat it.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:bronzebell",
+   "theme": "camino",
+   "set": "em",
+   "number": 29,
+   "name": "Bronze Bell",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/bronzebell.webp",
+   "thumb": "/cards/embers-peaks/em/bronzebell.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A single note, heard across the whole valley.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:soottalisman",
+   "theme": "camino",
+   "set": "em",
+   "number": 30,
+   "name": "Soot Talisman",
+   "subtitle": "Forge Work",
+   "type": "Relic",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/soottalisman.webp",
+   "thumb": "/cards/embers-peaks/em/soottalisman.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It blackens your fingers and clears your head.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:furnacebreath",
+   "theme": "camino",
+   "set": "em",
+   "number": 31,
+   "name": "Furnace Breath",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/furnacebreath.webp",
+   "thumb": "/cards/embers-peaks/em/furnacebreath.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "One breath in, and winter takes a step back.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:showerofsparks",
+   "theme": "camino",
+   "set": "em",
+   "number": 32,
+   "name": "Shower of Sparks",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/showerofsparks.webp",
+   "thumb": "/cards/embers-peaks/em/showerofsparks.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It wets no one and lights everyone.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:wallofembers",
+   "theme": "camino",
+   "set": "em",
+   "number": 33,
+   "name": "Wall of Embers",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/wallofembers.webp",
+   "thumb": "/cards/embers-peaks/em/wallofembers.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "No one crosses it, except those with nothing to hide.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:runeofthereddawn",
+   "theme": "camino",
+   "set": "em",
+   "number": 34,
+   "name": "Rune of the Red Dawn",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/runeofthereddawn.webp",
+   "thumb": "/cards/embers-peaks/em/runeofthereddawn.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Drawn backwards, it brings on the evening.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:ashcloud",
+   "theme": "camino",
+   "set": "em",
+   "number": 35,
+   "name": "Ash Cloud",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/ashcloud.webp",
+   "thumb": "/cards/embers-peaks/em/ashcloud.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The sky clouds over, then remembers it is blue.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:volcanoawakening",
+   "theme": "camino",
+   "set": "em",
+   "number": 36,
+   "name": "Volcano Awakening",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "holo",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/em/volcanoawakening.webp",
+   "thumb": "/cards/embers-peaks/em/volcanoawakening.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The mountain stretches and the whole country wakes up.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:smithssong",
+   "theme": "camino",
+   "set": "em",
+   "number": 37,
+   "name": "Smith's Song",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/smithssong.webp",
+   "thumb": "/cards/embers-peaks/em/smithssong.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Three low notes, one spark, and the metal agrees.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:slagbolt",
+   "theme": "camino",
+   "set": "em",
+   "number": 38,
+   "name": "Slag Bolt",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/slagbolt.webp",
+   "thumb": "/cards/embers-peaks/em/slagbolt.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Short, red, and devilishly convincing.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:flamepact",
+   "theme": "camino",
+   "set": "em",
+   "number": 39,
+   "name": "Flame Pact",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/flamepact.webp",
+   "thumb": "/cards/embers-peaks/em/flamepact.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "You do not sign it: you simply step closer.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:ashesrestored",
+   "theme": "camino",
+   "set": "em",
+   "number": 40,
+   "name": "Ashes Restored",
+   "subtitle": "Fire Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/ashesrestored.webp",
+   "thumb": "/cards/embers-peaks/em/ashesrestored.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Under the ash, the seed never stopped listening.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:maelisthesmith",
+   "theme": "camino",
+   "set": "em",
+   "number": 41,
+   "name": "Maelis the Smith",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/maelisthesmith.webp",
+   "thumb": "/cards/embers-peaks/em/maelisthesmith.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She says a good tool is known by its silence.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 5,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:em:orenthewatcher",
+   "theme": "camino",
+   "set": "em",
+   "number": 42,
+   "name": "Oren the Watcher",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/orenthewatcher.webp",
+   "thumb": "/cards/embers-peaks/em/orenthewatcher.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He knows which fire is rising, which one sleeps, and which one lies.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 5,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:em:tessaashmoon",
+   "theme": "camino",
+   "set": "em",
+   "number": 43,
+   "name": "Tessa Ashmoon",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/tessaashmoon.webp",
+   "thumb": "/cards/embers-peaks/em/tessaashmoon.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She reads the future in sparks and the present in people's eyes.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:branntheelder",
+   "theme": "camino",
+   "set": "em",
+   "number": 44,
+   "name": "Brann the Elder",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/branntheelder.webp",
+   "thumb": "/cards/embers-peaks/em/branntheelder.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He has seen three volcanoes go out and four friendships rekindle.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:em:yssaoftheembers",
+   "theme": "camino",
+   "set": "em",
+   "number": 45,
+   "name": "Yssa of the Embers",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/yssaoftheembers.webp",
+   "thumb": "/cards/embers-peaks/em/yssaoftheembers.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She laughs so loud the hearths light up again.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 5
+   }
+  },
+  {
+   "id": "camino:em:gasparslag",
+   "theme": "camino",
+   "set": "em",
+   "number": 46,
+   "name": "Gaspar Slag",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/gasparslag.webp",
+   "thumb": "/cards/embers-peaks/em/gasparslag.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Bad temper, excellent founder.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:liorenflamebearer",
+   "theme": "camino",
+   "set": "em",
+   "number": 47,
+   "name": "Lioren Flamebearer",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/liorenflamebearer.webp",
+   "thumb": "/cards/embers-peaks/em/liorenflamebearer.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He runs ahead of the storm so the others can walk in shelter.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:naelthefounder",
+   "theme": "camino",
+   "set": "em",
+   "number": 48,
+   "name": "Nael the Founder",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/naelthefounder.webp",
+   "thumb": "/cards/embers-peaks/em/naelthefounder.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "His patience is the one thing he has never melted down.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:em:ladydawnbright",
+   "theme": "camino",
+   "set": "em",
+   "number": 49,
+   "name": "Lady Dawnbright",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/ladydawnbright.webp",
+   "thumb": "/cards/embers-peaks/em/ladydawnbright.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She plants seeds in the ash, on principle.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:em:pipthelamplighter",
+   "theme": "camino",
+   "set": "em",
+   "number": 50,
+   "name": "Pip the Lamplighter",
+   "subtitle": "Forge Companion",
+   "type": "Ally",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/pipthelamplighter.webp",
+   "thumb": "/cards/embers-peaks/em/pipthelamplighter.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The smallest of us carries the brightest light.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 6,
+    "ardor": 5
+   }
+  },
+  {
+   "id": "camino:em:embernight",
+   "theme": "camino",
+   "set": "em",
+   "number": 51,
+   "name": "Ember Night",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/embernight.webp",
+   "thumb": "/cards/embers-peaks/em/embernight.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The sky is black, but the earth glows red in reply.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:lavatide",
+   "theme": "camino",
+   "set": "em",
+   "number": 52,
+   "name": "Lava Tide",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/lavatide.webp",
+   "thumb": "/cards/embers-peaks/em/lavatide.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Slow, patient, inevitable: it has all the time in the world.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:reddawn",
+   "theme": "camino",
+   "set": "em",
+   "number": 53,
+   "name": "Red Dawn",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/reddawn.webp",
+   "thumb": "/cards/embers-peaks/em/reddawn.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "They say it brings luck to those already walking.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:ashrain",
+   "theme": "camino",
+   "set": "em",
+   "number": 54,
+   "name": "Ash Rain",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/ashrain.webp",
+   "thumb": "/cards/embers-peaks/em/ashrain.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Soft as snow, grey as a regret.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:furnacestorm",
+   "theme": "camino",
+   "set": "em",
+   "number": 55,
+   "name": "Furnace Storm",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/furnacestorm.webp",
+   "thumb": "/cards/embers-peaks/em/furnacestorm.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It passes, and the land smells of toast for a week.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:burningeclipse",
+   "theme": "camino",
+   "set": "em",
+   "number": 56,
+   "name": "Burning Eclipse",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/burningeclipse.webp",
+   "thumb": "/cards/embers-peaks/em/burningeclipse.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The sun hides, and the mountain takes the chance to shine.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:sulphurmist",
+   "theme": "camino",
+   "set": "em",
+   "number": 57,
+   "name": "Sulphur Mist",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/sulphurmist.webp",
+   "thumb": "/cards/embers-peaks/em/sulphurmist.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It stings the eyes and wakes old memories.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:firesidevigil",
+   "theme": "camino",
+   "set": "em",
+   "number": 58,
+   "name": "Fireside Vigil",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/em/firesidevigil.webp",
+   "thumb": "/cards/embers-peaks/em/firesidevigil.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Everyone falls quiet, and we hear each other better than ever.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:thegreatthaw",
+   "theme": "camino",
+   "set": "em",
+   "number": 59,
+   "name": "The Great Thaw",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "holo",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/em/thegreatthaw.webp",
+   "thumb": "/cards/embers-peaks/em/thegreatthaw.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Everything that was frozen starts moving again.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:em:silenceoftheembers",
+   "theme": "camino",
+   "set": "em",
+   "number": 60,
+   "name": "Silence of the Embers",
+   "subtitle": "Fire Awakening",
+   "type": "Phenomenon",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/em/silenceoftheembers.webp",
+   "thumb": "/cards/embers-peaks/em/silenceoftheembers.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "When nothing crackles any more, you find that everything still burns.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:highlandeagle",
+   "theme": "camino",
+   "set": "pk",
+   "number": 1,
+   "name": "Highland Eagle",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/highlandeagle.webp",
+   "thumb": "/cards/embers-peaks/pk/highlandeagle.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It never looks down, except to find you.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:pk:silverchamois",
+   "theme": "camino",
+   "set": "pk",
+   "number": 2,
+   "name": "Silver Chamois",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/silverchamois.webp",
+   "thumb": "/cards/embers-peaks/pk/silverchamois.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It leaps from stone to stone without disturbing any of them.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 1
+   }
+  },
+  {
+   "id": "camino:pk:snowlynx",
+   "theme": "camino",
+   "set": "pk",
+   "number": 3,
+   "name": "Snow Lynx",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/snowlynx.webp",
+   "thumb": "/cards/embers-peaks/pk/snowlynx.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its tracks vanish before anyone can count them.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 1
+   }
+  },
+  {
+   "id": "camino:pk:moonowl",
+   "theme": "camino",
+   "set": "pk",
+   "number": 4,
+   "name": "Moon Owl",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/moonowl.webp",
+   "thumb": "/cards/embers-peaks/pk/moonowl.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It only sleeps when the moon is full, to keep an eye on it.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 5,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:pk:frostgiant",
+   "theme": "camino",
+   "set": "pk",
+   "number": 5,
+   "name": "Frost Giant",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/frostgiant.webp",
+   "thumb": "/cards/embers-peaks/pk/frostgiant.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Gentle as a frozen lake, as long as you do not walk on it.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 1
+   }
+  },
+  {
+   "id": "camino:pk:aurorastag",
+   "theme": "camino",
+   "set": "pk",
+   "number": 6,
+   "name": "Aurora Stag",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/aurorastag.webp",
+   "thumb": "/cards/embers-peaks/pk/aurorastag.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its antlers gather the first light of day.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:pk:crystalfalcon",
+   "theme": "camino",
+   "set": "pk",
+   "number": 7,
+   "name": "Crystal Falcon",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/crystalfalcon.webp",
+   "thumb": "/cards/embers-peaks/pk/crystalfalcon.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its wings chime like ice cracking in the sun.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:pk:polarfox",
+   "theme": "camino",
+   "set": "pk",
+   "number": 8,
+   "name": "Polar Fox",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/polarfox.webp",
+   "thumb": "/cards/embers-peaks/pk/polarfox.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "White on white, it shows itself only to those who deserve it.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:pk:ridgeowl",
+   "theme": "camino",
+   "set": "pk",
+   "number": 9,
+   "name": "Ridge Owl",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/ridgeowl.webp",
+   "thumb": "/cards/embers-peaks/pk/ridgeowl.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It knows the name of every stone, and keeps it to itself.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 6,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:pk:mistwolf",
+   "theme": "camino",
+   "set": "pk",
+   "number": 10,
+   "name": "Mist Wolf",
+   "subtitle": "Highland Beast",
+   "type": "Creature",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/mistwolf.webp",
+   "thumb": "/cards/embers-peaks/pk/mistwolf.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It guides the lost, and bites those who claim to know the way.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:pk:lonelypeak",
+   "theme": "camino",
+   "set": "pk",
+   "number": 11,
+   "name": "Lonely Peak",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/lonelypeak.webp",
+   "thumb": "/cards/embers-peaks/pk/lonelypeak.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It never wanted neighbours, just a fine sky.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:passofwinds",
+   "theme": "camino",
+   "set": "pk",
+   "number": 12,
+   "name": "Pass of Winds",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/passofwinds.webp",
+   "thumb": "/cards/embers-peaks/pk/passofwinds.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Up here every wind sings its own refrain.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:mirrorlake",
+   "theme": "camino",
+   "set": "pk",
+   "number": 13,
+   "name": "Mirror Lake",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/mirrorlake.webp",
+   "thumb": "/cards/embers-peaks/pk/mirrorlake.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It shows the sky, the mountain, and sometimes the face you will have tomorrow.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:skyobservatory",
+   "theme": "camino",
+   "set": "pk",
+   "number": 14,
+   "name": "Sky Observatory",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/skyobservatory.webp",
+   "thumb": "/cards/embers-peaks/pk/skyobservatory.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Ten thousand nights of watching, and the sky still keeps its secrets.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:froststair",
+   "theme": "camino",
+   "set": "pk",
+   "number": 15,
+   "name": "Frost Stair",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/froststair.webp",
+   "thumb": "/cards/embers-peaks/pk/froststair.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A thousand steps, each with its own small story.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:hangingvalley",
+   "theme": "camino",
+   "set": "pk",
+   "number": 16,
+   "name": "Hanging Valley",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/hangingvalley.webp",
+   "thumb": "/cards/embers-peaks/pk/hangingvalley.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A valley within the valley, visited only by the wind.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:starsanctuary",
+   "theme": "camino",
+   "set": "pk",
+   "number": 17,
+   "name": "Star Sanctuary",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "ultra",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/pk/starsanctuary.webp",
+   "thumb": "/cards/embers-peaks/pk/starsanctuary.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The sky is so close here you could almost touch it.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:singingglacier",
+   "theme": "camino",
+   "set": "pk",
+   "number": 18,
+   "name": "Singing Glacier",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/singingglacier.webp",
+   "thumb": "/cards/embers-peaks/pk/singingglacier.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It cracks, it sings, it remembers every winter.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:eagleridge",
+   "theme": "camino",
+   "set": "pk",
+   "number": 19,
+   "name": "Eagle Ridge",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/eagleridge.webp",
+   "thumb": "/cards/embers-peaks/pk/eagleridge.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A narrow edge and a vast horizon: a lesson in humility.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:lastfirehut",
+   "theme": "camino",
+   "set": "pk",
+   "number": 20,
+   "name": "Last Fire Hut",
+   "subtitle": "High Country",
+   "type": "Place",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/lastfirehut.webp",
+   "thumb": "/cards/embers-peaks/pk/lastfirehut.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A light in the night, and the promise of a dry bundle of wood.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:starcompass",
+   "theme": "camino",
+   "set": "pk",
+   "number": 21,
+   "name": "Star Compass",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/starcompass.webp",
+   "thumb": "/cards/embers-peaks/pk/starcompass.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It does not point north: it points to what you are missing.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:foghorn",
+   "theme": "camino",
+   "set": "pk",
+   "number": 22,
+   "name": "Fog Horn",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/foghorn.webp",
+   "thumb": "/cards/embers-peaks/pk/foghorn.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its call cuts through fog and bad moods alike.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:auroracrystal",
+   "theme": "camino",
+   "set": "pk",
+   "number": 23,
+   "name": "Aurora Crystal",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/auroracrystal.webp",
+   "thumb": "/cards/embers-peaks/pk/auroracrystal.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Deep in its ice it keeps a morning that never ends.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:silvericeaxe",
+   "theme": "camino",
+   "set": "pk",
+   "number": 24,
+   "name": "Silver Ice Axe",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/silvericeaxe.webp",
+   "thumb": "/cards/embers-peaks/pk/silvericeaxe.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Neither too heavy nor too light: made to the measure of the climb.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:polarlantern",
+   "theme": "camino",
+   "set": "pk",
+   "number": 25,
+   "name": "Polar Lantern",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/polarlantern.webp",
+   "thumb": "/cards/embers-peaks/pk/polarlantern.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Its blue glow lights what you did not dare to look at.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:frostcloak",
+   "theme": "camino",
+   "set": "pk",
+   "number": 26,
+   "name": "Frost Cloak",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/frostcloak.webp",
+   "thumb": "/cards/embers-peaks/pk/frostcloak.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It does not keep you warm: it makes the cold bearable.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:skychart",
+   "theme": "camino",
+   "set": "pk",
+   "number": 27,
+   "name": "Sky Chart",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "holo",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/pk/skychart.webp",
+   "thumb": "/cards/embers-peaks/pk/skychart.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Every star is in its place, except one, which is waiting.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:winterring",
+   "theme": "camino",
+   "set": "pk",
+   "number": 28,
+   "name": "Winter Ring",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/winterring.webp",
+   "thumb": "/cards/embers-peaks/pk/winterring.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A circle of frost slowly closing around the seconds.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:icebell",
+   "theme": "camino",
+   "set": "pk",
+   "number": 29,
+   "name": "Ice Bell",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/icebell.webp",
+   "thumb": "/cards/embers-peaks/pk/icebell.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It rings when the weather is about to turn, never before.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:lookoutsspyglass",
+   "theme": "camino",
+   "set": "pk",
+   "number": 30,
+   "name": "Lookout's Spyglass",
+   "subtitle": "Summit Treasure",
+   "type": "Relic",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/lookoutsspyglass.webp",
+   "thumb": "/cards/embers-peaks/pk/lookoutsspyglass.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "You can see far with it, sometimes a little farther than planned.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:snowstorm",
+   "theme": "camino",
+   "set": "pk",
+   "number": 31,
+   "name": "Snowstorm",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/snowstorm.webp",
+   "thumb": "/cards/embers-peaks/pk/snowstorm.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "White, thick, loud: perfect for hearing nothing at all.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:windstep",
+   "theme": "camino",
+   "set": "pk",
+   "number": 32,
+   "name": "Wind Step",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/windstep.webp",
+   "thumb": "/cards/embers-peaks/pk/windstep.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "One step, and you are already on the far side of the pass.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:auroraveil",
+   "theme": "camino",
+   "set": "pk",
+   "number": 33,
+   "name": "Aurora Veil",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/auroraveil.webp",
+   "thumb": "/cards/embers-peaks/pk/auroraveil.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Stretched over the camp, it keeps dreams warm.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:songofthestars",
+   "theme": "camino",
+   "set": "pk",
+   "number": 34,
+   "name": "Song of the Stars",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/songofthestars.webp",
+   "thumb": "/cards/embers-peaks/pk/songofthestars.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Seven low notes, and the sky answers softly.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:flashfreeze",
+   "theme": "camino",
+   "set": "pk",
+   "number": 35,
+   "name": "Flash Freeze",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/flashfreeze.webp",
+   "thumb": "/cards/embers-peaks/pk/flashfreeze.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Time stops, for the blink of an eye.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:eaglescall",
+   "theme": "camino",
+   "set": "pk",
+   "number": 36,
+   "name": "Eagle's Call",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/eaglescall.webp",
+   "thumb": "/cards/embers-peaks/pk/eaglescall.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "One feather thrown to the wind, and the sky falls into order.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:summitbreath",
+   "theme": "camino",
+   "set": "pk",
+   "number": 37,
+   "name": "Summit Breath",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/summitbreath.webp",
+   "thumb": "/cards/embers-peaks/pk/summitbreath.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It fills the lungs and empties the head.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:moonpath",
+   "theme": "camino",
+   "set": "pk",
+   "number": 38,
+   "name": "Moon Path",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/moonpath.webp",
+   "thumb": "/cards/embers-peaks/pk/moonpath.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A silver path on the water that ends exactly where it should.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:frostrune",
+   "theme": "camino",
+   "set": "pk",
+   "number": 39,
+   "name": "Frost Rune",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/frostrune.webp",
+   "thumb": "/cards/embers-peaks/pk/frostrune.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It freezes the moment, and makes it beautiful.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:starfall",
+   "theme": "camino",
+   "set": "pk",
+   "number": 40,
+   "name": "Starfall",
+   "subtitle": "Sky Craft",
+   "type": "Spell",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/starfall.webp",
+   "thumb": "/cards/embers-peaks/pk/starfall.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Make a wish, but choose it quickly.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:aldrictheguide",
+   "theme": "camino",
+   "set": "pk",
+   "number": 41,
+   "name": "Aldric the Guide",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/aldrictheguide.webp",
+   "thumb": "/cards/embers-peaks/pk/aldrictheguide.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He knows the mountain the way you know a stubborn old friend.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:pk:nualaofthesnows",
+   "theme": "camino",
+   "set": "pk",
+   "number": 42,
+   "name": "Nuala of the Snows",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/nualaofthesnows.webp",
+   "thumb": "/cards/embers-peaks/pk/nualaofthesnows.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She walks on snow without leaving a print.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:pk:orsinofarsight",
+   "theme": "camino",
+   "set": "pk",
+   "number": 43,
+   "name": "Orsino Farsight",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/orsinofarsight.webp",
+   "thumb": "/cards/embers-peaks/pk/orsinofarsight.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He sees everything, and never says more than he must.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 4
+   }
+  },
+  {
+   "id": "camino:pk:selenethemapmaker",
+   "theme": "camino",
+   "set": "pk",
+   "number": 44,
+   "name": "Selene the Mapmaker",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/selenethemapmaker.webp",
+   "thumb": "/cards/embers-peaks/pk/selenethemapmaker.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She draws the world by following her own footsteps.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 1
+   }
+  },
+  {
+   "id": "camino:pk:tobiasiceaxe",
+   "theme": "camino",
+   "set": "pk",
+   "number": 45,
+   "name": "Tobias Iceaxe",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/tobiasiceaxe.webp",
+   "thumb": "/cards/embers-peaks/pk/tobiasiceaxe.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "A smile, a rope, and the certainty of getting back down.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 1
+   }
+  },
+  {
+   "id": "camino:pk:ilyathescout",
+   "theme": "camino",
+   "set": "pk",
+   "number": 46,
+   "name": "Ilya the Scout",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/ilyathescout.webp",
+   "thumb": "/cards/embers-peaks/pk/ilyathescout.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She leaves before dawn and comes back with the day.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 6,
+    "ardor": 5
+   }
+  },
+  {
+   "id": "camino:pk:mastercorvin",
+   "theme": "camino",
+   "set": "pk",
+   "number": 47,
+   "name": "Master Corvin",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "holo",
+   "foil": "cosmos",
+   "image": "/cards/embers-peaks/pk/mastercorvin.webp",
+   "thumb": "/cards/embers-peaks/pk/mastercorvin.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He talks to the ravens, who listen out of politeness.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 7,
+    "ardor": 5
+   }
+  },
+  {
+   "id": "camino:pk:anoukoftheridges",
+   "theme": "camino",
+   "set": "pk",
+   "number": 48,
+   "name": "Anouk of the Ridges",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/anoukoftheridges.webp",
+   "thumb": "/cards/embers-peaks/pk/anoukoftheridges.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She sings to the goats, who sing to the summits.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 2,
+    "ardor": 2
+   }
+  },
+  {
+   "id": "camino:pk:fenntheporter",
+   "theme": "camino",
+   "set": "pk",
+   "number": 49,
+   "name": "Fenn the Porter",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/fenntheporter.webp",
+   "thumb": "/cards/embers-peaks/pk/fenntheporter.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "He carries everything, including the team's spirits.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 3,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:pk:vesperthekeeper",
+   "theme": "camino",
+   "set": "pk",
+   "number": 50,
+   "name": "Vesper the Keeper",
+   "subtitle": "Rope Companion",
+   "type": "Ally",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/vesperthekeeper.webp",
+   "thumb": "/cards/embers-peaks/pk/vesperthekeeper.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "She keeps the fire and the stories, in that order.",
+   "artist": "Procedural illustration",
+   "stats": {
+    "power": 4,
+    "ardor": 3
+   }
+  },
+  {
+   "id": "camino:pk:moonlessnight",
+   "theme": "camino",
+   "set": "pk",
+   "number": 51,
+   "name": "Moonless Night",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/moonlessnight.webp",
+   "thumb": "/cards/embers-peaks/pk/moonlessnight.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "There have never been so many stars.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:northernlights",
+   "theme": "camino",
+   "set": "pk",
+   "number": 52,
+   "name": "Northern Lights",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "holo",
+   "foil": "reverse",
+   "image": "/cards/embers-peaks/pk/northernlights.webp",
+   "thumb": "/cards/embers-peaks/pk/northernlights.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The sky unrolls its ribbons and the silence applauds.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:meteorshower",
+   "theme": "camino",
+   "set": "pk",
+   "number": 53,
+   "name": "Meteor Shower",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/meteorshower.webp",
+   "thumb": "/cards/embers-peaks/pk/meteorshower.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Everyone looks up, and everyone makes the same wish.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:seaofclouds",
+   "theme": "camino",
+   "set": "pk",
+   "number": 54,
+   "name": "Sea of Clouds",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "rare",
+   "foil": "linear",
+   "image": "/cards/embers-peaks/pk/seaofclouds.webp",
+   "thumb": "/cards/embers-peaks/pk/seaofclouds.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Above, it is paradise; below, it is Monday.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:thegreatcold",
+   "theme": "camino",
+   "set": "pk",
+   "number": 55,
+   "name": "The Great Cold",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/thegreatcold.webp",
+   "thumb": "/cards/embers-peaks/pk/thegreatcold.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Even words freeze before they reach the ear.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:silenteclipse",
+   "theme": "camino",
+   "set": "pk",
+   "number": 56,
+   "name": "Silent Eclipse",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "uncommon",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/silenteclipse.webp",
+   "thumb": "/cards/embers-peaks/pk/silenteclipse.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "For a moment, the mountain holds its breath.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:silversnow",
+   "theme": "camino",
+   "set": "pk",
+   "number": 57,
+   "name": "Silver Snow",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "holo",
+   "foil": "reverse",
+   "image": "/cards/embers-peaks/pk/silversnow.webp",
+   "thumb": "/cards/embers-peaks/pk/silversnow.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "It falls without a sound, like an idea arriving.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:solstice",
+   "theme": "camino",
+   "set": "pk",
+   "number": 58,
+   "name": "Solstice",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/solstice.webp",
+   "thumb": "/cards/embers-peaks/pk/solstice.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The longest night or the longest day: that is up to you.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:conjunction",
+   "theme": "camino",
+   "set": "pk",
+   "number": 59,
+   "name": "Conjunction",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "secret",
+   "foil": "rainbow",
+   "image": "/cards/embers-peaks/pk/conjunction.webp",
+   "thumb": "/cards/embers-peaks/pk/conjunction.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "Three stars in a line, and the world holds its breath.",
+   "artist": "Procedural illustration"
+  },
+  {
+   "id": "camino:pk:peakrise",
+   "theme": "camino",
+   "set": "pk",
+   "number": 60,
+   "name": "Peakrise",
+   "subtitle": "Summit Sky",
+   "type": "Phenomenon",
+   "rarity": "common",
+   "foil": "none",
+   "image": "/cards/embers-peaks/pk/peakrise.webp",
+   "thumb": "/cards/embers-peaks/pk/peakrise.thumb.webp",
+   "art_rect": [
+    0.075,
+    0.115,
+    0.85,
+    0.5
+   ],
+   "flavor": "The mountain finally clears the shadow and begins to shine.",
+   "artist": "Procedural illustration"
+  }
+ ],
+ "pack": {
+  "cards_per_pack": 5,
+  "slots": [
+   {
+    "label": "Common or uncommon",
+    "odds": {
+     "common": 70,
+     "uncommon": 30
+    }
+   },
+   {
+    "label": "Common or uncommon",
+    "odds": {
+     "common": 70,
+     "uncommon": 30
+    }
+   },
+   {
+    "label": "Common or uncommon",
+    "odds": {
+     "common": 70,
+     "uncommon": 30
+    }
+   },
+   {
+    "label": "Rare or better",
+    "odds": {
+     "rare": 84,
+     "holo": 12,
+     "ultra": 3.5,
+     "secret": 0.5
+    }
+   },
+   {
+    "label": "Wildcard",
+    "odds": {
+     "common": 0,
+     "uncommon": 40,
+     "rare": 40,
+     "holo": 15,
+     "ultra": 4.5,
+     "secret": 0.5
+    }
+   }
+  ],
+  "pity": {
+   "rare_every": 5,
+   "ultra_every": 25
+  }
+ }
+}

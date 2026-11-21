@@ -1,0 +1,1153 @@
+{
+ "id": "camino",
+ "lang": "en",
+ "name": "The Camino Francés",
+ "subtitle": "Saint-Jean-Pied-de-Port to Santiago de Compostela, 780 km",
+ "total_mi": 484.67,
+ "total_m": 780000.0,
+ "source_note": "About 780 km from Saint-Jean-Pied-de-Port to Santiago de Compostela, in four stages. Distances follow common guidebook figures and vary by a few kilometres with the variant taken.",
+ "rewards": {
+  "pack_every_m": 2000
+ },
+ "stages": [
+  {
+   "id": "stage1",
+   "name": "Saint-Jean-Pied-de-Port to Burgos",
+   "start_mi": 0.0,
+   "start_m": 0.0,
+   "end_mi": 180.198,
+   "end_m": 290000.0
+  },
+  {
+   "id": "stage2",
+   "name": "Burgos to León, across the Meseta",
+   "start_mi": 180.198,
+   "start_m": 290000.0,
+   "end_mi": 295.151,
+   "end_m": 475000.0
+  },
+  {
+   "id": "stage3",
+   "name": "León to Sarria",
+   "start_mi": 295.151,
+   "start_m": 475000.0,
+   "end_mi": 413.212,
+   "end_m": 665000.0
+  },
+  {
+   "id": "stage4",
+   "name": "Sarria to Santiago de Compostela",
+   "start_mi": 413.212,
+   "start_m": 665000.0,
+   "end_mi": 484.67,
+   "end_m": 780000.0
+  }
+ ],
+ "biomes": [
+  {
+   "id": "pyrenees",
+   "name": "the Pyrenees",
+   "terrain": "upland",
+   "weather": "fog",
+   "palette": {
+    "sky": [
+     "#9fb8c8",
+     "#dde6ec"
+    ],
+    "sun": "#f2efe0",
+    "far": "#9aa39a",
+    "mid": "#7e8a7c",
+    "near": "#5f6c5e",
+    "ground": "#4a5448",
+    "accent": "#c9a6c8",
+    "fog": "#d9e0e3"
+   },
+   "start_mi": 0.0,
+   "start_m": 0.0,
+   "end_mi": 15.534,
+   "end_m": 25000.0
+  },
+  {
+   "id": "navarra_woods",
+   "name": "the beech woods of Navarra",
+   "terrain": "forest",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#86c5e8",
+     "#d6ecf7"
+    ],
+    "sun": "#fff4c4",
+    "far": "#9cc1a0",
+    "mid": "#6ea77a",
+    "near": "#4a8656",
+    "ground": "#3c6a44",
+    "accent": "#f0e08c",
+    "fog": "#e2f0f7"
+   },
+   "start_mi": 15.534,
+   "start_m": 25000.0,
+   "end_mi": 37.282,
+   "end_m": 60000.0
+  },
+  {
+   "id": "pamplona",
+   "name": "Pamplona",
+   "terrain": "village",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#9ccbe6",
+     "#e6f1f8"
+    ],
+    "sun": "#fff0c0",
+    "far": "#c8bba5",
+    "mid": "#b09d82",
+    "near": "#8f7b62",
+    "ground": "#6e5d49",
+    "accent": "#e9c46a",
+    "fog": "#ede6da"
+   },
+   "start_mi": 37.282,
+   "start_m": 60000.0,
+   "end_mi": 44.739,
+   "end_m": 72000.0
+  },
+  {
+   "id": "navarra_fields",
+   "name": "the fields of Navarra",
+   "terrain": "farmland",
+   "weather": "wind",
+   "palette": {
+    "sky": [
+     "#8ccbf0",
+     "#e4f2fb"
+    ],
+    "sun": "#fff1b0",
+    "far": "#d9c48a",
+    "mid": "#c9a95e",
+    "near": "#b08a44",
+    "ground": "#8c6b34",
+    "accent": "#f6d77a",
+    "fog": "#f3ecd8"
+   },
+   "start_mi": 44.739,
+   "start_m": 72000.0,
+   "end_mi": 83.885,
+   "end_m": 135000.0
+  },
+  {
+   "id": "rioja",
+   "name": "La Rioja",
+   "terrain": "garden",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#8fc9ec",
+     "#e1f0f9"
+    ],
+    "sun": "#ffe9a8",
+    "far": "#b9b38a",
+    "mid": "#8f9a5a",
+    "near": "#6b7c3c",
+    "ground": "#7a4f36",
+    "accent": "#b5323f",
+    "fog": "#efe8dc"
+   },
+   "start_mi": 83.885,
+   "start_m": 135000.0,
+   "end_mi": 127.381,
+   "end_m": 205000.0
+  },
+  {
+   "id": "burgos_wheat",
+   "name": "the wheat of Burgos",
+   "terrain": "farmland",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#8ccbf0",
+     "#e4f2fb"
+    ],
+    "sun": "#fff1b0",
+    "far": "#d9c48a",
+    "mid": "#c9a95e",
+    "near": "#b08a44",
+    "ground": "#8c6b34",
+    "accent": "#f6d77a",
+    "fog": "#f3ecd8"
+   },
+   "start_mi": 127.381,
+   "start_m": 205000.0,
+   "end_mi": 152.236,
+   "end_m": 245000.0
+  },
+  {
+   "id": "montes_de_oca",
+   "name": "the Montes de Oca",
+   "terrain": "forest",
+   "weather": "fog",
+   "palette": {
+    "sky": [
+     "#86c5e8",
+     "#d6ecf7"
+    ],
+    "sun": "#fff4c4",
+    "far": "#9cc1a0",
+    "mid": "#6ea77a",
+    "near": "#4a8656",
+    "ground": "#3c6a44",
+    "accent": "#f0e08c",
+    "fog": "#e2f0f7"
+   },
+   "start_mi": 152.236,
+   "start_m": 245000.0,
+   "end_mi": 173.984,
+   "end_m": 280000.0
+  },
+  {
+   "id": "burgos",
+   "name": "Burgos",
+   "terrain": "village",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#9ccbe6",
+     "#e6f1f8"
+    ],
+    "sun": "#fff0c0",
+    "far": "#c8bba5",
+    "mid": "#b09d82",
+    "near": "#8f7b62",
+    "ground": "#6e5d49",
+    "accent": "#e9c46a",
+    "fog": "#ede6da"
+   },
+   "start_mi": 173.984,
+   "start_m": 280000.0,
+   "end_mi": 183.305,
+   "end_m": 295000.0
+  },
+  {
+   "id": "meseta",
+   "name": "the Meseta",
+   "terrain": "plains",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#8ccbf0",
+     "#e4f2fb"
+    ],
+    "sun": "#fff1b0",
+    "far": "#d9c48a",
+    "mid": "#c9a95e",
+    "near": "#b08a44",
+    "ground": "#8c6b34",
+    "accent": "#f6d77a",
+    "fog": "#f3ecd8"
+   },
+   "start_mi": 183.305,
+   "start_m": 295000.0,
+   "end_mi": 257.869,
+   "end_m": 415000.0
+  },
+  {
+   "id": "tierra_de_campos",
+   "name": "Tierra de Campos",
+   "terrain": "plains",
+   "weather": "wind",
+   "palette": {
+    "sky": [
+     "#8ccbf0",
+     "#e4f2fb"
+    ],
+    "sun": "#fff1b0",
+    "far": "#d9c48a",
+    "mid": "#c9a95e",
+    "near": "#b08a44",
+    "ground": "#8c6b34",
+    "accent": "#f6d77a",
+    "fog": "#f3ecd8"
+   },
+   "start_mi": 257.869,
+   "start_m": 415000.0,
+   "end_mi": 292.044,
+   "end_m": 470000.0
+  },
+  {
+   "id": "leon",
+   "name": "León",
+   "terrain": "village",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#9ccbe6",
+     "#e6f1f8"
+    ],
+    "sun": "#fff0c0",
+    "far": "#c8bba5",
+    "mid": "#b09d82",
+    "near": "#8f7b62",
+    "ground": "#6e5d49",
+    "accent": "#e9c46a",
+    "fog": "#ede6da"
+   },
+   "start_mi": 292.044,
+   "start_m": 470000.0,
+   "end_mi": 298.258,
+   "end_m": 480000.0
+  },
+  {
+   "id": "paramo",
+   "name": "the Páramo",
+   "terrain": "farmland",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#8ccbf0",
+     "#e4f2fb"
+    ],
+    "sun": "#fff1b0",
+    "far": "#d9c48a",
+    "mid": "#c9a95e",
+    "near": "#b08a44",
+    "ground": "#8c6b34",
+    "accent": "#f6d77a",
+    "fog": "#f3ecd8"
+   },
+   "start_mi": 298.258,
+   "start_m": 480000.0,
+   "end_mi": 323.113,
+   "end_m": 520000.0
+  },
+  {
+   "id": "astorga",
+   "name": "Astorga",
+   "terrain": "village",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#9ccbe6",
+     "#e6f1f8"
+    ],
+    "sun": "#fff0c0",
+    "far": "#c8bba5",
+    "mid": "#b09d82",
+    "near": "#8f7b62",
+    "ground": "#6e5d49",
+    "accent": "#e9c46a",
+    "fog": "#ede6da"
+   },
+   "start_mi": 323.113,
+   "start_m": 520000.0,
+   "end_mi": 329.327,
+   "end_m": 530000.0
+  },
+  {
+   "id": "montes_de_leon",
+   "name": "the Montes de León",
+   "terrain": "moor",
+   "weather": "wind",
+   "palette": {
+    "sky": [
+     "#9fb8c8",
+     "#dde6ec"
+    ],
+    "sun": "#f2efe0",
+    "far": "#9aa39a",
+    "mid": "#7e8a7c",
+    "near": "#5f6c5e",
+    "ground": "#4a5448",
+    "accent": "#c9a6c8",
+    "fog": "#d9e0e3"
+   },
+   "start_mi": 329.327,
+   "start_m": 530000.0,
+   "end_mi": 351.075,
+   "end_m": 565000.0
+  },
+  {
+   "id": "bierzo",
+   "name": "El Bierzo",
+   "terrain": "valley",
+   "weather": "clear",
+   "palette": {
+    "sky": [
+     "#8fc9ec",
+     "#e1f0f9"
+    ],
+    "sun": "#ffe9a8",
+    "far": "#b9b38a",
+    "mid": "#8f9a5a",
+    "near": "#6b7c3c",
+    "ground": "#7a4f36",
+    "accent": "#b5323f",
+    "fog": "#efe8dc"
+   },
+   "start_mi": 351.075,
+   "start_m": 565000.0,
+   "end_mi": 375.93,
+   "end_m": 605000.0
+  },
+  {
+   "id": "cebreiro",
+   "name": "the climb to O Cebreiro",
+   "terrain": "upland",
+   "weather": "fog",
+   "palette": {
+    "sky": [
+     "#9fb8c8",
+     "#dde6ec"
+    ],
+    "sun": "#f2efe0",
+    "far": "#9aa39a",
+    "mid": "#7e8a7c",
+    "near": "#5f6c5e",
+    "ground": "#4a5448",
+    "accent": "#c9a6c8",
+    "fog": "#d9e0e3"
+   },
+   "start_mi": 375.93,
+   "start_m": 605000.0,
+   "end_mi": 394.571,
+   "end_m": 635000.0
+  },
+  {
+   "id": "galicia_hills",
+   "name": "the hills of Galicia",
+   "terrain": "deepforest",
+   "weather": "rain",
+   "palette": {
+    "sky": [
+     "#9cb4bf",
+     "#d5e0e4"
+    ],
+    "sun": "#eef0e6",
+    "far": "#7fa38a",
+    "mid": "#5d8a6a",
+    "near": "#3f6e4e",
+    "ground": "#33553e",
+    "accent": "#e8d27a",
+    "fog": "#cfdcd9"
+   },
+   "start_mi": 394.571,
+   "start_m": 635000.0,
+   "end_mi": 413.212,
+   "end_m": 665000.0
+  },
+  {
+   "id": "galicia",
+   "name": "Galicia",
+   "terrain": "forest",
+   "weather": "fog",
+   "palette": {
+    "sky": [
+     "#9cb4bf",
+     "#d5e0e4"
+    ],
+    "sun": "#eef0e6",
+    "far": "#7fa38a",
+    "mid": "#5d8a6a",
+    "near": "#3f6e4e",
+    "ground": "#33553e",
+    "accent": "#e8d27a",
+    "fog": "#cfdcd9"
+   },
+   "start_mi": 413.212,
+   "start_m": 665000.0,
+   "end_mi": 478.456,
+   "end_m": 770000.0
+  },
+  {
+   "id": "santiago",
+   "name": "Santiago de Compostela",
+   "terrain": "village",
+   "weather": "rain",
+   "palette": {
+    "sky": [
+     "#9ccbe6",
+     "#e6f1f8"
+    ],
+    "sun": "#fff0c0",
+    "far": "#c8bba5",
+    "mid": "#b09d82",
+    "near": "#8f7b62",
+    "ground": "#6e5d49",
+    "accent": "#e9c46a",
+    "fog": "#ede6da"
+   },
+   "start_mi": 478.456,
+   "start_m": 770000.0,
+   "end_mi": 484.67,
+   "end_m": 780000.0
+  }
+ ],
+ "events": [
+  {
+   "id": "e0000",
+   "kind": "milestone",
+   "title": "Saint-Jean-Pied-de-Port",
+   "body": "A stamp in your pilgrim's credential, a scallop shell on your pack, and a cobbled street running downhill to the Porte d'Espagne. 780 km to Santiago. The first day is the hardest: it crosses the Pyrenees.",
+   "icon": "🐚",
+   "at_mi": 0.0,
+   "at_m": 0.0
+  },
+  {
+   "id": "e0001",
+   "kind": "choice",
+   "title": "Over the mountain or through the valley?",
+   "body": "Two ways into Spain. The Route Napoléon goes over the top; the Valcarlos road follows the valley, and it is the one to take when snow closes the pass.",
+   "icon": "🧭",
+   "choice": {
+    "options": [
+     {
+      "id": "napoleon",
+      "label": "Route Napoléon",
+      "detail": "Higher, harder, wide open views.",
+      "outcome": "You climb into the clouds with the vultures and the sheep. On a clear day you can see all the way back to the plains of France."
+     },
+     {
+      "id": "valcarlos",
+      "label": "Valcarlos road",
+      "detail": "Lower, sheltered, along the river.",
+      "outcome": "Chestnut woods, a river beside you and a village for coffee. The climb waits for you at the end, in smaller pieces."
+     }
+    ]
+   },
+   "at_mi": 0.311,
+   "at_m": 500.0
+  },
+  {
+   "id": "e0002",
+   "kind": "beat",
+   "title": "Orisson",
+   "body": "The last refuge before the pass. Water, a bench, and the valley falling away below.",
+   "icon": "⛰️",
+   "at_mi": 4.971,
+   "at_m": 8000.0
+  },
+  {
+   "id": "e0003",
+   "kind": "challenge",
+   "title": "The climb to the pass",
+   "body": "Well over a thousand metres of climbing in a single morning. Lean into it and keep a steady rhythm.",
+   "icon": "🥾",
+   "challenge": {
+    "type": "incline_hold",
+    "min_incline_pct": 4.0,
+    "duration_s": 300,
+    "fallback": {
+     "type": "speed_hold",
+     "min_speed_kmh": 5.0,
+     "duration_s": 300
+    },
+    "success": "The Col de Lepoeder, at about 1,450 metres. Downhill from here, for today.",
+    "failure": "You stop more often than you meant to. The mountain does not mind, and neither should you.",
+    "note": "No incline? Push the pace instead: the app checks speed if your treadmill does not report incline."
+   },
+   "at_mi": 8.699,
+   "at_m": 14000.0
+  },
+  {
+   "id": "e0004",
+   "kind": "beat",
+   "title": "Into Spain",
+   "body": "A stone marker and a cattle grid: you have crossed the border without noticing.",
+   "icon": "🇪🇸",
+   "at_mi": 9.942,
+   "at_m": 16000.0
+  },
+  {
+   "id": "e0005",
+   "kind": "milestone",
+   "title": "Roncesvalles",
+   "body": "A great stone collegiate church in a fold of the mountain, a pilgrims' blessing in the evening, and a dormitory full of people who all started today.",
+   "icon": "⛪",
+   "at_mi": 15.534,
+   "at_m": 25000.0
+  },
+  {
+   "id": "e0006",
+   "kind": "beat",
+   "title": "Zubiri",
+   "body": "A medieval bridge over the Arga, and the first blisters being compared on its parapet.",
+   "icon": "🌉",
+   "at_mi": 29.204,
+   "at_m": 47000.0
+  },
+  {
+   "id": "e0007",
+   "kind": "milestone",
+   "title": "Pamplona",
+   "body": "Over the Magdalena bridge and through the Portal de Francia into the walled city. In July the bulls run these streets; today it is only walkers.",
+   "icon": "🏰",
+   "at_mi": 42.253,
+   "at_m": 68000.0
+  },
+  {
+   "id": "e0008",
+   "kind": "challenge",
+   "title": "Alto del Perdón",
+   "body": "A long climb to a ridge lined with wind turbines. The wind up there pushes back.",
+   "icon": "💨",
+   "challenge": {
+    "type": "incline_hold",
+    "min_incline_pct": 3.0,
+    "duration_s": 240,
+    "fallback": {
+     "type": "speed_hold",
+     "min_speed_kmh": 5.0,
+     "duration_s": 240
+    },
+    "success": "On the ridge stands a line of iron pilgrims. Their inscription says this is where the way of the wind crosses the way of the stars.",
+    "failure": "You reach the top slowly, with the wind in your face. You still reach it."
+   },
+   "at_mi": 48.467,
+   "at_m": 78000.0
+  },
+  {
+   "id": "e0009",
+   "kind": "milestone",
+   "title": "Puente la Reina",
+   "body": "Its Romanesque bridge has carried pilgrims over the Arga for nine centuries. The route from Aragón has joined yours: one road from now on.",
+   "icon": "🌉",
+   "at_mi": 57.166,
+   "at_m": 92000.0
+  },
+  {
+   "id": "e0010",
+   "kind": "beat",
+   "title": "Estella",
+   "body": "A town that grew up around the pilgrim road, full of Romanesque churches.",
+   "icon": "🏛️",
+   "at_mi": 70.836,
+   "at_m": 114000.0
+  },
+  {
+   "id": "e0011",
+   "kind": "milestone",
+   "title": "The wine fountain at Irache",
+   "body": "The winery beside the monastery of Irache has put a tap in its wall: one side water, the other red wine, free for walkers. Moderation is advised.",
+   "icon": "🍷",
+   "at_mi": 72.7,
+   "at_m": 117000.0
+  },
+  {
+   "id": "e0012",
+   "kind": "beat",
+   "title": "Los Arcos",
+   "body": "A plain square, a lavish church, and a long afternoon in the shade.",
+   "icon": "⛪",
+   "at_mi": 83.885,
+   "at_m": 135000.0
+  },
+  {
+   "id": "e0013",
+   "kind": "milestone",
+   "title": "Logroño",
+   "body": "The capital of La Rioja. In the evening the narrow streets around Calle Laurel fill with people going from one tapas bar to the next.",
+   "icon": "🍢",
+   "at_mi": 101.284,
+   "at_m": 163000.0
+  },
+  {
+   "id": "e0014",
+   "kind": "beat",
+   "title": "Vineyards",
+   "body": "Rows of vines to the horizon, and red earth that stains your boots.",
+   "icon": "🍇",
+   "at_mi": 110.604,
+   "at_m": 178000.0
+  },
+  {
+   "id": "e0015",
+   "kind": "beat",
+   "title": "Nájera",
+   "body": "Red cliffs above the river, with caves dug into them.",
+   "icon": "🪨",
+   "at_mi": 119.303,
+   "at_m": 192000.0
+  },
+  {
+   "id": "e0016",
+   "kind": "milestone",
+   "title": "Santo Domingo de la Calzada",
+   "body": "A live hen and rooster are kept inside the cathedral, in memory of a medieval miracle about a pilgrim wrongly hanged. They are very calm about it.",
+   "icon": "🐓",
+   "at_mi": 132.352,
+   "at_m": 213000.0
+  },
+  {
+   "id": "e0017",
+   "kind": "beat",
+   "title": "Belorado",
+   "body": "Into the province of Burgos. The fields turn from vines to wheat.",
+   "icon": "🌾",
+   "at_mi": 146.644,
+   "at_m": 236000.0
+  },
+  {
+   "id": "e0018",
+   "kind": "challenge",
+   "title": "The Montes de Oca",
+   "body": "Oak and pine forest that pilgrims once feared for its bandits. Today it is just long and quiet. Keep moving.",
+   "icon": "🌲",
+   "challenge": {
+    "type": "speed_hold",
+    "min_speed_kmh": 5.5,
+    "duration_s": 180,
+    "success": "You come out of the trees with the afternoon still ahead of you.",
+    "failure": "The forest stretches on. You arrive late, but you arrive."
+   },
+   "at_mi": 155.343,
+   "at_m": 250000.0
+  },
+  {
+   "id": "e0019",
+   "kind": "beat",
+   "title": "San Juan de Ortega",
+   "body": "A monastery in a clearing, founded by a saint who spent his life making this road safer, with bridges and a hospice.",
+   "icon": "🕍",
+   "at_mi": 161.557,
+   "at_m": 260000.0
+  },
+  {
+   "id": "e0020",
+   "kind": "milestone",
+   "title": "Atapuerca",
+   "body": "Just off the path, caves where some of the oldest human remains in Europe were found. Pilgrims are recent visitors here.",
+   "icon": "🦴",
+   "at_mi": 165.285,
+   "at_m": 266000.0
+  },
+  {
+   "id": "e0021",
+   "kind": "milestone",
+   "title": "Burgos",
+   "body": "A Gothic cathedral of white stone, all spires and lace. Stage one of four is done: 290 km behind you. Take a rest day if you can.",
+   "icon": "⛪",
+   "at_mi": 180.198,
+   "at_m": 290000.0
+  },
+  {
+   "id": "e0022",
+   "kind": "beat",
+   "title": "Onto the Meseta",
+   "body": "The high plateau of Castile: wheat, sky, and a path running straight to the horizon. Some love it, some dread it.",
+   "icon": "🌾",
+   "at_mi": 183.926,
+   "at_m": 296000.0
+  },
+  {
+   "id": "e0023",
+   "kind": "beat",
+   "title": "Hornillos del Camino",
+   "body": "A single street of stone houses, built along the road because of the road.",
+   "icon": "🏘️",
+   "at_mi": 192.625,
+   "at_m": 310000.0
+  },
+  {
+   "id": "e0024",
+   "kind": "beat",
+   "title": "Hontanas",
+   "body": "A village hidden in a fold of the plain. You only see the church tower when you are almost there.",
+   "icon": "⛪",
+   "at_mi": 199.46,
+   "at_m": 321000.0
+  },
+  {
+   "id": "e0025",
+   "kind": "milestone",
+   "title": "The arch of San Antón",
+   "body": "The road passes right under the ruined arch of a medieval monastery. Its monks cared for pilgrims struck by a fever that made them burn.",
+   "icon": "🏚️",
+   "at_mi": 203.188,
+   "at_m": 327000.0
+  },
+  {
+   "id": "e0026",
+   "kind": "beat",
+   "title": "Castrojeriz",
+   "body": "A long village wrapped around the foot of a castle hill.",
+   "icon": "🏰",
+   "at_mi": 205.052,
+   "at_m": 330000.0
+  },
+  {
+   "id": "e0027",
+   "kind": "challenge",
+   "title": "Alto de Mostelares",
+   "body": "A short, steep climb out of the valley, then the plateau opens again.",
+   "icon": "⬆️",
+   "challenge": {
+    "type": "incline_hold",
+    "min_incline_pct": 5.0,
+    "duration_s": 180,
+    "fallback": {
+     "type": "speed_hold",
+     "min_speed_kmh": 5.5,
+     "duration_s": 180
+    },
+    "success": "From the top, the Meseta in every direction, cut by the path you just walked.",
+    "failure": "You stop halfway to catch your breath. The view is just as good from there."
+   },
+   "at_mi": 206.917,
+   "at_m": 333000.0
+  },
+  {
+   "id": "e0028",
+   "kind": "beat",
+   "title": "The Canal de Castilla",
+   "body": "An 18th-century canal, with a towpath that walks you into Frómista.",
+   "icon": "🚣",
+   "at_mi": 218.723,
+   "at_m": 352000.0
+  },
+  {
+   "id": "e0029",
+   "kind": "milestone",
+   "title": "Frómista",
+   "body": "San Martín, one of the purest Romanesque churches in Spain, stands alone in its square.",
+   "icon": "⛪",
+   "at_mi": 220.587,
+   "at_m": 355000.0
+  },
+  {
+   "id": "e0030",
+   "kind": "beat",
+   "title": "Carrión de los Condes",
+   "body": "Last shop for a while: the next stretch has no village for about 17 km.",
+   "icon": "🛒",
+   "at_mi": 232.393,
+   "at_m": 374000.0
+  },
+  {
+   "id": "e0031",
+   "kind": "challenge",
+   "title": "The Roman road",
+   "body": "Seventeen kilometres of straight gravel on an old Roman road, with nothing to hide behind. Carry water and keep a steady pace.",
+   "icon": "☀️",
+   "challenge": {
+    "type": "speed_hold",
+    "min_speed_kmh": 5.5,
+    "duration_s": 300,
+    "success": "Calzadilla de la Cueza appears in its hollow, and its café is open.",
+    "failure": "The heat slows you down. You make it, with an empty bottle."
+   },
+   "at_mi": 236.121,
+   "at_m": 380000.0
+  },
+  {
+   "id": "e0032",
+   "kind": "milestone",
+   "title": "Sahagún",
+   "body": "Brick churches in the Mudéjar style, and roughly the halfway point of the Camino. The town gives walkers a certificate to prove it.",
+   "icon": "🧱",
+   "at_mi": 257.248,
+   "at_m": 414000.0
+  },
+  {
+   "id": "e0033",
+   "kind": "beat",
+   "title": "Mansilla de las Mulas",
+   "body": "Old town walls, and the last night before the city.",
+   "icon": "🧱",
+   "at_mi": 279.617,
+   "at_m": 450000.0
+  },
+  {
+   "id": "e0034",
+   "kind": "milestone",
+   "title": "León",
+   "body": "A cathedral made mostly of light, with some of the finest medieval stained glass in Europe. Stage two is done, 475 km behind you. The Meseta is over.",
+   "icon": "🌈",
+   "at_mi": 295.151,
+   "at_m": 475000.0
+  },
+  {
+   "id": "e0035",
+   "kind": "milestone",
+   "title": "Hospital de Órbigo",
+   "body": "A long medieval bridge where, in 1434, a knight is said to have held the crossing against all comers in a month of jousts, for love.",
+   "icon": "🛡️",
+   "at_mi": 315.035,
+   "at_m": 507000.0
+  },
+  {
+   "id": "e0036",
+   "kind": "milestone",
+   "title": "Astorga",
+   "body": "Roman walls, a fairy-tale bishop's palace by Gaudí, and a long tradition of chocolate making.",
+   "icon": "🍫",
+   "at_mi": 324.356,
+   "at_m": 522000.0
+  },
+  {
+   "id": "e0037",
+   "kind": "challenge",
+   "title": "Into the Montes de León",
+   "body": "The path climbs again, through broom and heather, into the wind.",
+   "icon": "🌬️",
+   "challenge": {
+    "type": "incline_hold",
+    "min_incline_pct": 3.5,
+    "duration_s": 300,
+    "fallback": {
+     "type": "speed_hold",
+     "min_speed_kmh": 5.0,
+     "duration_s": 300
+    },
+    "success": "Foncebadón: a village that was almost abandoned, and came back to life thanks to walkers.",
+    "failure": "The climb takes everything you have today. Foncebadón waits for you all the same."
+   },
+   "at_mi": 335.54,
+   "at_m": 540000.0
+  },
+  {
+   "id": "e0038",
+   "kind": "milestone",
+   "title": "Cruz de Ferro",
+   "body": "A small iron cross on a tall wooden pole, standing on a mound of stones. Pilgrims carry a stone from home all the way here and leave it. At about 1,500 m, this is the highest point of the Camino Francés.",
+   "icon": "✝️",
+   "at_mi": 341.754,
+   "at_m": 550000.0
+  },
+  {
+   "id": "e0039",
+   "kind": "milestone",
+   "title": "Ponferrada",
+   "body": "A Templar castle guarding the bridge over the river Sil.",
+   "icon": "🏰",
+   "at_mi": 357.288,
+   "at_m": 575000.0
+  },
+  {
+   "id": "e0040",
+   "kind": "beat",
+   "title": "Villafranca del Bierzo",
+   "body": "Its church has a Door of Forgiveness: in the Middle Ages, pilgrims too sick to go on could earn their pilgrimage here.",
+   "icon": "🚪",
+   "at_mi": 370.959,
+   "at_m": 597000.0
+  },
+  {
+   "id": "e0041",
+   "kind": "challenge",
+   "title": "The climb to O Cebreiro",
+   "body": "The last big climb, from chestnut groves up to the hills of Galicia. Often in fog.",
+   "icon": "🌫️",
+   "challenge": {
+    "type": "incline_hold",
+    "min_incline_pct": 5.0,
+    "duration_s": 360,
+    "fallback": {
+     "type": "speed_hold",
+     "min_speed_kmh": 5.0,
+     "duration_s": 360
+    },
+    "success": "You come over the top into a stone village in the clouds.",
+    "failure": "Slowly, with stops. The fog hides how far you still had to go, which helps."
+   },
+   "at_mi": 380.279,
+   "at_m": 612000.0
+  },
+  {
+   "id": "e0042",
+   "kind": "beat",
+   "title": "Into Galicia",
+   "body": "A granite marker with a scallop shell. From here, stone markers count down the distance to Santiago.",
+   "icon": "🐚",
+   "at_mi": 382.765,
+   "at_m": 616000.0
+  },
+  {
+   "id": "e0043",
+   "kind": "milestone",
+   "title": "O Cebreiro",
+   "body": "Round stone houses with thatched roofs, and a pre-Romanesque church. Its parish priest started painting the yellow arrows that now guide walkers along the whole Camino.",
+   "icon": "🏡",
+   "at_mi": 388.357,
+   "at_m": 625000.0
+  },
+  {
+   "id": "e0044",
+   "kind": "choice",
+   "title": "Samos or San Xil?",
+   "body": "After Triacastela the way splits for a day and joins again in Sarria.",
+   "icon": "🧭",
+   "choice": {
+    "options": [
+     {
+      "id": "samos",
+      "label": "Via Samos",
+      "detail": "Longer, along a river, past a great monastery.",
+      "outcome": "There has been a monastery at Samos for well over a thousand years. You walk in under its walls."
+     },
+     {
+      "id": "sanxil",
+      "label": "Via San Xil",
+      "detail": "Shorter, over the hills.",
+      "outcome": "Small hamlets, chestnut trees and stone walls. You meet more cows than people."
+     }
+    ]
+   },
+   "at_mi": 402.027,
+   "at_m": 647000.0
+  },
+  {
+   "id": "e0045",
+   "kind": "milestone",
+   "title": "Sarria",
+   "body": "Many pilgrims start here: the Compostela is given to those who walk at least the last 100 km. Stage three is done, and the path gets busy.",
+   "icon": "🎒",
+   "at_mi": 413.212,
+   "at_m": 665000.0
+  },
+  {
+   "id": "e0046",
+   "kind": "milestone",
+   "title": "100 km to go",
+   "body": "The most photographed marker on the Camino: one hundred kilometres to Santiago.",
+   "icon": "💯",
+   "at_mi": 422.532,
+   "at_m": 680000.0
+  },
+  {
+   "id": "e0047",
+   "kind": "milestone",
+   "title": "Portomarín",
+   "body": "When a reservoir flooded the old town in the 1960s, its church was taken apart and rebuilt, stone by stone, on the hill above.",
+   "icon": "⛪",
+   "at_mi": 426.882,
+   "at_m": 687000.0
+  },
+  {
+   "id": "e0048",
+   "kind": "beat",
+   "title": "Hórreos",
+   "body": "Stone granaries on legs, with a cross on the roof, beside every farm.",
+   "icon": "🌽",
+   "at_mi": 434.96,
+   "at_m": 700000.0
+  },
+  {
+   "id": "e0049",
+   "kind": "beat",
+   "title": "Palas de Rei",
+   "body": "Rain, then sun, then rain. Galicia does both in the same hour.",
+   "icon": "🌦️",
+   "at_mi": 442.416,
+   "at_m": 712000.0
+  },
+  {
+   "id": "e0050",
+   "kind": "milestone",
+   "title": "Melide",
+   "body": "The town is known for its octopus, boiled and served on wooden plates with paprika and olive oil.",
+   "icon": "🐙",
+   "at_mi": 451.737,
+   "at_m": 727000.0
+  },
+  {
+   "id": "e0051",
+   "kind": "beat",
+   "title": "Arzúa",
+   "body": "Cheese country: a soft, mild cheese with the town's name on it.",
+   "icon": "🧀",
+   "at_mi": 460.436,
+   "at_m": 741000.0
+  },
+  {
+   "id": "e0052",
+   "kind": "beat",
+   "title": "Eucalyptus",
+   "body": "Tall eucalyptus woods. The air smells like a cough sweet.",
+   "icon": "🌳",
+   "at_mi": 467.271,
+   "at_m": 752000.0
+  },
+  {
+   "id": "e0053",
+   "kind": "challenge",
+   "title": "The last push",
+   "body": "The city is close and your legs know it. One more effort.",
+   "icon": "🏃",
+   "challenge": {
+    "type": "speed_hold",
+    "min_speed_kmh": 6.0,
+    "duration_s": 240,
+    "success": "Monte do Gozo, the Mount of Joy: the cathedral's spires on the skyline.",
+    "failure": "You go slowly up the last hill. The spires are there anyway."
+   },
+   "at_mi": 478.456,
+   "at_m": 770000.0
+  },
+  {
+   "id": "e0054",
+   "kind": "milestone",
+   "title": "Monte do Gozo",
+   "body": "The first view of the cathedral. Tradition says medieval pilgrims raced each other up here to see it first.",
+   "icon": "👀",
+   "at_mi": 481.563,
+   "at_m": 775000.0
+  },
+  {
+   "id": "e0055",
+   "kind": "milestone",
+   "title": "Santiago de Compostela",
+   "body": "A bagpiper under the archway, then the Praza do Obradoiro and the cathedral's façade. 780 km, every one of them walked. The Pilgrim's Office has your Compostela.",
+   "icon": "🏁",
+   "at_mi": 484.67,
+   "at_m": 780000.0
+  }
+ ],
+ "map": {
+  "view_box": "0 0 1000 640",
+  "path": "M 910 410 C 870 430, 840 452, 800 446 C 760 440, 730 472, 690 472 C 650 472, 610 440, 560 432 C 510 424, 450 410, 400 402 C 350 394, 300 372, 262 360 C 228 349, 214 330, 196 326 C 160 318, 130 300, 90 296",
+  "decor": [
+   {
+    "kind": "label",
+    "x": 880,
+    "y": 380,
+    "text": "the Pyrenees"
+   },
+   {
+    "kind": "label",
+    "x": 790,
+    "y": 480,
+    "text": "Pamplona"
+   },
+   {
+    "kind": "label",
+    "x": 560,
+    "y": 466,
+    "text": "Burgos"
+   },
+   {
+    "kind": "label",
+    "x": 480,
+    "y": 382,
+    "text": "the Meseta"
+   },
+   {
+    "kind": "label",
+    "x": 400,
+    "y": 436,
+    "text": "León"
+   },
+   {
+    "kind": "label",
+    "x": 196,
+    "y": 300,
+    "text": "O Cebreiro"
+   },
+   {
+    "kind": "label",
+    "x": 80,
+    "y": 332,
+    "text": "Santiago"
+   }
+  ]
+ }
+}
