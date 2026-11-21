@@ -1,0 +1,25 @@
+{
+  "name": "Walkhome",
+  "short_name": "Walkhome",
+  "description": "A treadmill quest for the whole household: move along the road, earn cards, overtake each other.",
+  "lang": "en",
+  "id": "/",
+  "start_url": "/#/camp",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d0b09",
+  "theme_color": "#0d0b09",
+  "categories": ["health", "fitness", "games"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Walk", "short_name": "Walk", "url": "/#/walk", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "My packs", "short_name": "Packs", "url": "/#/packs", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "The race", "short_name": "Race", "url": "/#/race", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Quests", "short_name": "Quests", "url": "/#/quests", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
